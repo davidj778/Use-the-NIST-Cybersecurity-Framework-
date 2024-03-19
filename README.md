@@ -27,6 +27,55 @@ Recover affected systems to normal operation and restore systems data and/or ass
 
 
 
+<table>
+  <thead>
+    <tr>
+      <th>Column 1 Header</th>
+      <th>Column 2 Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Summary:</td>
+      <td>There was a recent DDOS attack that occurred which  compromised the network for 2 hours. This happened due to a misconfigured firewall which allowed a flood of ICMP packets to disrupt the network.</td>
+    </tr>
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+    </tr>
+  </tbody>
+</table>
+|-----|----|
+| Summaryt: |
+
+
+There was a recent DDOS attack that occurred which  compromised the network for 2 hours. This happened due to a misconfigured firewall which allowed a flood of ICMP packets to disrupt the network.
+
+Identify:
+
+The organizations network services were stopped due to a flood of ICMP packets. This was found when the network was shut down for 2 hours.
+
+Upon further investigation, the cybersecurity team found that the attacker sent the flood of ICMP packets through an unconfigured firewall.
+
+Protect:
+
+The team put in place a IDS/IPS system to filter certain ICMP traffic, depending on suspicious characteristics.
+
+Detect:
+
+In order to prevent this type of attack from happening again, the team implemented a network monitoring software which uses abnormal traffic pattern detection. To check for spoofed IP addresses from incoming ICMP traffic, the team configure the source IP address verification on the firewall.
+
+Respond:
+
+The incident management team should block all ICMP traffic and stop all not critical services offline.
+
+Recover:
+
+Restore critical network services. After this, non-critical network systems and services should be put back online.
+
+
+
+
 
 
 
