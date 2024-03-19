@@ -25,7 +25,7 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 
 Recover affected systems to normal operation and restore systems data and/or assets that have been affected by an incident.
 
-
+## Incident report analysis
 
 <table>
   <tbody>
