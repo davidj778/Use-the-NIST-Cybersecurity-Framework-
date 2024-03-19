@@ -49,7 +49,7 @@ Recover affected systems to normal operation and restore systems data and/or ass
     </tr>
     <tr>
       <td>Respond:</td>
-      <td>The incident management team should block all ICMP traffic and stop all not critical services offline.</td>
+      <td>The incident management team should block all ICMP traffic and stop all none critical services offline.</td>
     </tr>
     <tr>
       <td>Recover:</td>
