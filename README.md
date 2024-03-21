@@ -45,7 +45,7 @@ Recover affected systems to normal operation and restore systems data and/or ass
     </tr>
     <tr>
       <td>Detect:</td>
-      <td>In order to prevent this type of attack from happening again, the team implemented a network monitoring software which uses abnormal traffic pattern detection. To check for spoofed IP addresses from incoming ICMP traffic, the team configure the source IP address verification on the firewall.</td>
+      <td>In order to prevent this type of attack from happening again, the team implemented a network monitoring software which uses abnormal traffic pattern detection. To check for spoofed IP addresses from incoming ICMP traffic, the team configured the source IP address verification on the firewall.</td>
     </tr>
     <tr>
       <td>Respond:</td>
